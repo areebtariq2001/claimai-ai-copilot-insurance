@@ -10,7 +10,7 @@ Run locally: `streamlit run app.py` (see Setup below)
 
 ## Architecture
 
-![Architecture](claimai_architecture.png)
+![Architecture](claimai_architecture.jpg)
 
 Three input modalities (photo, claim form, description) flow into matching
 processing modules (CNN + Grad-CAM, tabular scoring, text keyword analysis),
@@ -64,14 +64,10 @@ flagging high-risk ones for closer manual review.
 **Target customers:** Mid-size auto insurers and third-party claims
 administrators currently relying on fully manual photo review.
 
-## Project structure
+## Project files
 
-```
-├── app.py                       # Streamlit web application
-├── requirements.txt
-├── ![Architecture](claimai_architecture.jpg)     # System architecture diagram
-├── notebooks/
-│   └── ClaimAI.ipynb           # Model training notebook
-└── sample_reports/
-    └── *.pdf                    # Sample generated claim reports
-```
+- `app.py` — Streamlit web application (main deliverable)
+- `requirements.txt` — Python dependencies
+- `claimai_architecture.jpg` — system architecture diagram
+- `notebooksClaimAI.ipynb.ipynb` — model training notebook (CNN, Grad-CAM, full pipeline)
+- `sample_reportsCLM-20260712024829_report.pdf.pdf` — sample AI-generated claim report
