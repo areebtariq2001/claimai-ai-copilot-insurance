@@ -69,7 +69,7 @@ administrators currently relying on fully manual photo review.
 ```
 ├── app.py                       # Streamlit web application
 ├── requirements.txt
-├── claimai_architecture.png     # System architecture diagram
+├── ![Architecture](claimai_architecture.jpg)     # System architecture diagram
 ├── notebooks/
 │   └── ClaimAI.ipynb           # Model training notebook
 └── sample_reports/
